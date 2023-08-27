@@ -1,0 +1,68 @@
+html[color-mode="light"] #madelinecodes {
+	--forumwave: #fcfcfc;
+	--topbub: #eee;
+	--eee: #f7f7f7;
+	--bord: #ddd;
+	--bord2: #eee;
+	--opacity: rgba(255,255,255,.4);
+	--fffo: rgba(255,255,255, 0.5);
+	--opacity2: rgba(255,255,255, 0.9);
+	--opacity3: rgba(0,0,0,.4);
+	--ccc: #ccc;
+	--aaa: #fff; 
+	--555: #555; 
+	--333: #333;
+	--111: #212121; 
+	--999: #fff;
+	--siteinfo: #eee;
+	--welcome: #505050;
+	--categories: #505050;
+        --topicon: #fff;
+	--wrapborder: #fff;
+	--alert: #b1b1b1;
+	--gradbkg: #fff;
+	--blend:overlay;
+	--boxshadow2: 1px 2px 5px rgb(229, 229, 229);
+	--gradient: linear-gradient(45deg, rgba(var(--mgrgb1),0.5) 0%, rgba(var(--mgrgb2),0.5) 30%, rgba(var(--mgrgb3),0.5) 65%; 
+}
+html[color-mode="dark"] #madelinecodes {
+	--forumwave: #414141;
+	--topbub: #fff;
+	--eee: #292929;
+	--bord: #333;
+	--bord2: #292929;
+	--opacity: rgba(66,66,66,.4);
+	--opacity2: rgba(66,66,66,0.9);
+	--opacity3: rgba(66,66,66,.4);
+	--fffo: rgba(66,66,66, 0.5);
+	--eeeo: rgba(41,41,41, 0.6);
+	--ccc: #333;
+	--aaa: #212121; 
+	--555: #888; 
+	--333: #ccc;
+	--111: #eee; 
+	--999: #393939;
+	--siteinfo: #212121;
+	--topicon: #212121;
+	--welcome: #fff;
+	--categories: #292929;
+	--wrapborder: #414141;
+	--alert: #292929;
+	--gradbkg: #6a6a6a;
+	--blend:multiply;
+	--boxshadow2: 1px 2px 5px rgb(33, 33, 33);
+	--gradient: linear-gradient(45deg, rgba(var(--mgrgb1),0.5) 0%, rgba(var(--mgrgb2),0.5) 30%, rgba(var(--mgrgb3),0.5) 65%;
+}
+.paradise { width: 350px; background: var(--forumwave); border-radius: 50px; box-shadow: 1px 2px 5px rgb(229, 229, 229); }
+.paradise-wave-o { position: relative; bottom: 0; left: 0; z-index: 0; }
+.paradise-wave { width: 100%; position: absolute; top: 0; left: 0; margin-top: 185px; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 210'%3E%3Cpath fill='var(--forumwave)â€™ fill-opacity='1' d='M0,128L48,138.7C96,149,192,171,288,160C384,149,480,107,576,80C672,53,768,43,864,64C960,85,1056,139,1152,133.3C1248,128,1344,64,1392,32L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z'%3E%3C/path%3E%3C/svg%3E"); }
+.paradise-wave2-o { position: relative; top: 0; left: 0; z-index: 0; }
+.paradise-wave2 { width: 100%; position: absolute; top: 0; left: 0; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 350'%3E%3Cpath fill='var(--forumwave)' fill-opacity='1' d='M0,128L48,138.7C96,149,192,171,288,160C384,149,480,107,576,80C672,53,768,43,864,64C960,85,1056,139,1152,133.3C1248,128,1344,64,1392,32L1440,0L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z'%3E%3C/path%3E%3C/svg%3E"); }
+.paradise-gif-o { display: flex; justify-content: center; align-items: center; border-radius: 40px 40px 0px 0px; border-bottom: 1px solid #ddd; background: var(â€”gradient); padding: 30px 30px 45px 30px; }
+.paradise-gif { width: 220px; height: 120px; border-radius: 30px; border: 1px solid var(--bord); padding: 15px; background: var(--forumwave); }
+.paradise-gif img { width: 100%; height: 100%; object-fit: cover; border-radius: 25px;}
+.paradise-words-outer { border-radius: 40px; background: var(--forumwave); }
+.paradise-words { padding: 30px 30px 10px 30px; font-size: 13px; text-align: justify; font-weight: 500; }
+.paradise-words b {font-size: 13px;font-weight: 700; color: var(--mgrgb2);}
+.paradise-notes { font-weight: 600; font-style: italic; font-family: 'Victor Mono'; font-size: 15px; text-transform: lowercase; border-radius: 0px 0px 40px 40px; border-top: 1px solid #ddd; background: var(--gradient); padding: 50px 30px 30px 30px; text-align: center; text-shadow: -1px -1px 0 var(--wrapborder), 0   -1px 0 var(--wrapborder), 1px -1px 0 var(--wrapborder), 1px  0   0 var(--wrapborder), 1px  1px 0 var(--wrapborder), 0    1px 0 var(--wrapborder), -1px  1px 0 var(--wrapborder), -1px  0   0 var(--wrapborder); }
+.paradise-notes a { text-transform: lowercase; text-shadow: -1px -1px 0 var(--wrapborder), 0   -1px 0 var(--wrapborder), 1px -1px 0 var(--wrapborder), 1px  0   0 var(--wrapborder), 1px  1px 0 var(--wrapborder), 0    1px 0 var(--wrapborder), -1px  1px 0 var(--wrapborder), -1px  0   0 var(--wrapborder); z-index: 1; position: relative; }
